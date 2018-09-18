@@ -148,9 +148,6 @@ function checkStars(){
   } else if (moveCount === 35){
     hideStar($('#star2'));
     starCount-= 1;
-  } else if (moveCount === 40){
-    hideStar($('#star1'))
-    starCount-= 1;
   }
 }
 
@@ -159,7 +156,8 @@ function checkStars(){
 * @param {ID} $param - star ID
 */
 function hideStar($param){
-  $param.hide();
+  $param.removeClass('fa fa-star');
+  $param.addClass('fa fa-star-o');
 }
 
 /**
