@@ -139,7 +139,7 @@ h1 {
    display: none;
    position: fixed;
    z-index: 1;
-   padding-top: 200px;
+   padding-top: 0px;
    left: 0;
    top: 0;
    width: 100%;
@@ -169,7 +169,7 @@ h1 {
 .restartGameButton {
   color: darkblue;
   background-color: silver;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
 }
 
