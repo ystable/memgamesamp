@@ -34,6 +34,7 @@ h1 {
     color: #7FFF00
 }
 
+
 /*
  * Styles for the deck of cards
  */
@@ -92,6 +93,7 @@ h1 {
   background: green;
 }
 
+
 /*
  * Styles for the Score Panel
  */
@@ -127,6 +129,7 @@ h1 {
     float:right;
     cursor: pointer;
 }
+
 
 /*
  * Styles for the modal
