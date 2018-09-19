@@ -1,19 +1,19 @@
 /* Memory Game */
 
-let clickClassList = [];                  //class list of clicked cards
-let clickCardList =[];                    //list of cards clicked (of 2 cards)
-let clickCount = 0;                       //click counter
+let clickClassList = [];                          //class list of clicked cards
+let clickCardList =[];                            //list of cards clicked
+let clickCount = 0;                               //click counter
 let allCardList = $('.deck .card .fa');           //list of all cards
-let arrayClassInfo=[];                    //array of classes to shuffle
-let moveCount = 0;                        //move counter
-let starCount = 3;                        //star counter
-let start = new Date;                     //timer reference
+let arrayClassInfo=[];                            //array of classes to shuffle
+let moveCount = 0;                                //move counter
+let starCount = 3;                                //star counter
+let start = new Date;                             //timer reference
 let gameTimer = setInterval(startTimer, 1000);    //timer count
 let modal = document.getElementById('modal');     //modal
 
 shuffleCards();
 
-// -- click event function --
+// click event function
 let clickAction = $( '.deck .card' ).click(function(event) {
   addMoveCount();
   checkStars();
