@@ -71,6 +71,7 @@ h1 {
     transform: rotateY(0);
     background: rgb(111, 111, 111);
     cursor: default;
+    pointer-events: none;
 }
 
 .deck .card.show {
